@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.cell table{
+  border: #dedede 1px;
+}
+
+.cell th,td{
+  border: 1px solid #dedede;
+  padding: 10px;
+  vertical-align: middle;
+  /* 縦方向のレイアウト指定 */
+}
+
+.cell th{
+  background-color: #2244aa;
+  color:#fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.cell td{
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  /* 中央よせ */
+}
+
+.cell > tbody > tr:nth-child(even) {
+  background-color: #ECF1F2;
+}
+/* 子要素の偶数に指示 */
+
+.cell > tbody > tr:last-child {
+  border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */

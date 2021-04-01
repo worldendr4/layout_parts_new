@@ -1,5 +1,102 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6__box__text{
+  width: 90px;
+  background-color: #e6f2ff;
+  padding:10px 0;
+}
+/* 両要素にかけられるテキスト付近のBOXのブロックの作成 */
+/* textallainの設定 */
+.q6__box__inner{
+  text-align: center;
+}
+.q6__textalain{
+  text-align: center;
+}
+.q6__box.is-textalign .q6__box__text {
+  display: inline-block;
+}
+/* textallainの設定 */
+
+/* marginの設定 */
+.q6__box.is-margin .q6__box__text{
+  margin: 0 auto;
+  text-align: center;
+}
+/* marginの設定 */
+
+
+/* tebleのプロパティ */
+.q6--around.is-table{
+  display: table;
+}
+/*tableをつけるとtdとなりtextallain verticalallain(上下中央揃え)が使用可能になる */
+.q6--around.is-table .q6__box {
+  display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
+}
+/* 中央寄せしたいテキストの要素に
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  を指示する */
+.q6--around.is-table .q6__box__text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+/* inline-brock
+margin heightが指定可能になる
+paddingで余白が指定できる
+vertical-alignが使用可能 */
+/* tebleのプロパティ */
+
+/* flexのプロパティ */
+.q6--around.is-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* align-items 縦方向に要素をどう揃えるかの指定
+justify-content 要素が複数ある時にどの様に揃えるか */
+.q6--around.is-flex .q6__box__text {
+  padding: 10px;
+  background-color: #FFF;
+  text-align: center;
+}
+/* flexのプロパティ */
+
+/* position固定のプロパティ */
+.q6--position .q6__box{
+  position: relative;
+}
+.q6__box.is-stable .q6__box__inner{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* margin 
+pxで入力して絶対値を指定した場合、そこから空白が発生する。
+値をautoにして絶対値を全て0で指定すると、座標は等しい値になる様に計算される。 */
+
+/* position可変のプロパティ */
+.q6__box.is-flexible .q6__box__inner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+/* 座標を半分させてそこから更に半分戻すと中央に配置される */
+/* maegin height指定不要 */
+/* position可変のプロパティ */
+
+
 
 /* 回答はここに書いてね */

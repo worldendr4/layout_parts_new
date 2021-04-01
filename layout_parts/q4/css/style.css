@@ -2,4 +2,56 @@
 
 /* 回答はここに書いてね */
 
+.q4__waku{
+padding: 20px;
+background-color: #ecf1f2;
+box-sizing: border-box;
+}
+
+.q4__hako{
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 横並びにしたい要素をdivで囲みそこに(display: table;)この場合、要素を３つが各hakoに収まる。 */
+
+.q4__hako:first-child{
+  margin-top:0;
+}
+
+.q4__hako__color{
+  padding: 20px 0;
+  text-align: center;
+  display: table-cell;
+  /* 内部指示親要素のdisplay: table;内で要素を横ならびにする。 */
+}
+
+
+.q4__hako__color.is-pink{
+  background: #fbc8b8;
+  width: 100px;
+}
+
+.q4__hako__color.is-purple{
+  background-color: #e0abd9;
+}
+
+.q4__hako__color.is-blue{
+  background-color: #b6d8ed;
+  width: 100px;
+}
+
+.q4__hako__color.is-yellow{
+  background-color: #e5d32e;
+}
+
+.q4__hako__color.is-red{
+  background-color: #ec8f9a;
+}
+
+.q4__hako__color.is-green{
+  background-color: #8fdcad;
+  width: 500px;
+}
 /* 回答はここに書いてね */
