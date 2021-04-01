@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.q5__whiteseat{
+/* クラス名にスペースを開ける */
+.q5__whiteseat {
   background-color: #ecf1f2;
   margin: 0 auto;
   width: 500px;
@@ -12,7 +12,7 @@
 /* rerative=子要素の座標決定と元にする要素につける
 absolute=子要素につける */
 
-.q5__box{
+.q5__box {
   width:100px;
   height:100px;
   text-align: center;
@@ -23,7 +23,7 @@ absolute=子要素につける */
 }
 /* (line-height)とは縦の文字と余白を足した数字の指定。
 適用すると縦で文字が中央揃えになる */
-.q5__box.and-1{ 
+.q5__box.and-1 { 
   z-index: 1;
   background-color: #ffefd3;
   top:40px;
@@ -31,56 +31,56 @@ absolute=子要素につける */
 }
 /* z-index 1を起点として一番大きい値が手前に表示される */
 
-.q5__box.and-2{
+.q5__box.and-2 {
   z-index: 2;
   background-color: #7084de;
   top:120px;
   right:120px;
 }
 
-.q5__box.and-3{
+.q5__box.and-3 {
   z-index: 3;
   background-color: #d0ecea;
   top:200px;
   right:40px;
 }
 
-.q5__box.and-4{
+.q5__box.and-4 {
   z-index: 4;
   background-color: #8b7a5e;
   top:280px;
   right:120px;
 }
 
-.q5__box.and-5{
+.q5__box.and-5 {
   z-index: 5;
   background-color: #9fd6d2;
   top:360px;
   right:200px;
 }
 
-.q5__box.and-6{
+.q5__box.and-6 {
   z-index: 6;
   background-color: #fffee4;
   top:280px;
   left:120px;
 }
 
-.q5__box.and-7{
+.q5__box.and-7 {
   z-index: 7;
   background-color: #deae70;
   top: 200px;
   left: 40px;
 }
 
-.q5__box.and-8{
+.q5__box.and-8 {
   z-index: 8;
   background-color: #de70cf;
   top: 120px;
   left: 120px;
 }
 
-.q5__box.and-8:after{
+.q5__box.and-8:after {
   position: absolute;
   content:"";
   background-color: #ffefd3;
@@ -92,9 +92,7 @@ absolute=子要素につける */
 /* after=divを作成しなくても図形を追加できるメリットがある。
 その場合、要素の右上から座標を計算する必要がある。「」￣￣ココ */
 
-
-
-.q5__box.and-9{
+.q5__box.and-9 { 
   z-index: 9;
   position:fixed;
   background-color: #2b69a3;

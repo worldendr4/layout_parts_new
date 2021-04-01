@@ -2,11 +2,16 @@
 
 /* 回答はここに書いてね */
 
-.cell table{
+/* .cell table{
   border: #dedede 1px;
+} */
+.cell{
+  width: 100%;
+  table-layout: fixed;
 }
 
-.cell th,td{
+.cell th,
+.cell td{
   border: 1px solid #dedede;
   padding: 10px;
   vertical-align: middle;
