@@ -42,7 +42,7 @@ margin heightが指定可能になる
 paddingで余白が指定できる
 vertical-alignが使用可能 */
 
-.q6--around.is-table {
+.is-table {
   display: table;
 }
 /*tableをつけるとtdとなりtextallain verticalallain(上下中央揃え)が使用可能になる */
@@ -59,7 +59,7 @@ vertical-alignが使用可能 */
 /* tebleのプロパティ */
 
 /* flexのプロパティ */
-.q6--around.is-flex {
+.is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,11 +74,11 @@ justify-content 要素が複数ある時にどの様に揃えるか */
   position: relative;
 } */
 
-.relative{
+.relative {
   position: relative;
 }
 
-.q6__absolute{
+.q6__absolute {
   position: absolute;
   margin: auto;
   top: 0;

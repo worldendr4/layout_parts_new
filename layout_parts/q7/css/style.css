@@ -6,50 +6,98 @@
   content: "";
   clear: both;
 }
-
-.q7 .q7__box{
+.q7__box{
   width:225px;
 }
-.q7--float .q7__box{
+.float {
   margin-left: 50px;
   box-sizing: border-box;
   float: left;
   font-size: 16px;
 }
-.q7--float .q7__box:first-child {
+.float:first-child {
   margin-left: 0;
 }
 /* 各q7__boxにmargin50pxを指定した後
 1stの項目のみmargin0pxで相殺 */
 
-.q7--table .q7__inner{
+.table-layout {
   display: table;
 }
-.q7--table .q7__box{
+/* .a,.b    aとbの指定 */
+/* .a .b    aかつB */
+/* .a > b   aの中のBの要素*/
+.table-center
+,.table-centertext{
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
-.q7--table .q7__box:first-child{
+.table-center:first-child{
   padding-left: 0;
 }
 
-
-.q7--inlineblock .q7__box{
+.inline-block{
   font-size: 16px;
   display: inline-block;
   margin-left: 50px;
   vertical-align: middle;
   box-sizing: border-box;
 }
-.q7--inlineblock .q7__box:first-child {
+.inline-block:first-child {
   margin-left: 0;
 }
-.q7--inlineblock .q7__inner {
+.zero {
   font-size: 0;
 }
 
-.q7--flex .q7__inner{
+
+.flex {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
+
+.flexbox{
+  margin-left: 50px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.flexbox:first-child{
+  margin-left: 0;
+}
+
+
+.inline{
+  box-sizing: border-box;
+  width:100%;
+  font-size: 0;
+}
+.fixed{
+    display: inline-block;
+    width: 300px;
+}
+.move {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+.both{
+  vertical-align: top;
+}
+.both:first-child{
+  margin-left: 0;
+}
+.font{
+  font-size: 16px;
+}
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
