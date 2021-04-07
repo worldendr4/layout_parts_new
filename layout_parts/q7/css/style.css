@@ -6,7 +6,7 @@
   content: "";
   clear: both;
 }
-.q7__box{
+.q7__box {
   width:225px;
 }
 .float {
@@ -18,26 +18,18 @@
 .float:first-child {
   margin-left: 0;
 }
-/* 各q7__boxにmargin50pxを指定した後
-1stの項目のみmargin0pxで相殺 */
 
-.table-layout {
-  display: table;
-}
-/* .a,.b    aとbの指定 */
-/* .a .b    aかつB */
-/* .a > b   aの中のBの要素*/
 .table-center
-,.table-centertext{
+,.table-centertext {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
-.table-center:first-child{
+.table-center:first-child {
   padding-left: 0;
 }
 
-.inline-block{
+.inline-block {
   font-size: 16px;
   display: inline-block;
   margin-left: 50px;
@@ -58,22 +50,22 @@
   align-items: flex-end;
 }
 
-.flexbox{
+.flexbox {
   margin-left: 50px;
   vertical-align: middle;
   box-sizing: border-box;
 }
-.flexbox:first-child{
+.flexbox:first-child {
   margin-left: 0;
 }
 
 
-.inline{
+.inline {
   box-sizing: border-box;
   width:100%;
   font-size: 0;
 }
-.fixed{
+.fixed {
     display: inline-block;
     width: 300px;
 }
@@ -84,13 +76,13 @@
   padding-left: 350px;
   box-sizing: border-box;
 }
-.both{
+.both {
   vertical-align: top;
 }
-.both:first-child{
+.both:first-child {
   margin-left: 0;
 }
-.font{
+.font {
   font-size: 16px;
 }
 
