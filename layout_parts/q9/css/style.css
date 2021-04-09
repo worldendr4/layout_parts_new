@@ -11,13 +11,18 @@
   margin: 0 auto;
   padding: 20px;
 }
+
+.ballon:before,
+.ballon:after{
+  width: 0px;
+  height: 0px;
+}
+
 .balloon:before {
   content: "";
   position: absolute;
-  bottom: -18px; left: 46px;
+  top: 147px; left: 46px;
   margin-left: -20px;
-  width: 0px;
-  height: 0px;
   border-style: solid;
   border-width: 24px 24px 0 24px;
   border-color: #fff transparent transparent transparent;
@@ -29,9 +34,6 @@
   border-color: #000000 transparent transparent transparent;
   content: "";
   position: absolute;
-  bottom: -25px; left: 35px;
-  margin-left: -10px;
-  width: 0px;
-  height: 0px;
+  top: 153px; left: 25px;
   z-index: -1;
 }
